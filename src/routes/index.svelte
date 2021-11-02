@@ -2,7 +2,7 @@
     <title>Svesta | Home</title>
 </svelte:head>
 <div class="container lg:px-48">
-    <h1>Welcome to Svesta</h1>
+    <h1 class="font-bold text-xl">Welcome ~</h1>
     <p>Have a good day!</p>
     <p>Powered by <a href="https://kit.svelte.dev">Svelte-Kit</a> and <a href="https://vercel.com">Vercel</a></p>
     <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima fugit quod repellendus totam molestiae nam nesciunt iusto ad praesentium quidem deleniti atque, necessitatibus accusamus eaque veritatis modi obcaecati nobis mollitia non dicta laboriosam ipsa beatae fugiat ut. Tenetur temporibus, vel nisi similique maiores tempora odit iste aperiam? Debitis numquam hic nobis? Voluptas, beatae commodi, magnam sunt vel omnis fugit eaque error eos aperiam veniam, minus dolore illo necessitatibus aut nam consequatur ut eveniet ipsum molestias nobis officia quam eius culpa. Autem odio soluta dignissimos consectetur ex excepturi non culpa? Vero non molestias quidem sapiente atque tempore totam vel temporibus nobis!</p>

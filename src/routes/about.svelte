@@ -2,7 +2,7 @@
     <title>Svesta | About</title>
 </svelte:head>
 
-<div class="container px-48">
+<div class="container lg:px-48">
     <h1 class="font-bold text-xl">About Me</h1>
     <p>I'm just an ordinary college student</p>
     <br>
