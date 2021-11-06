@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 * {
-  color: #0C145A;
+  color: #0c145a;
 }
 </style>
 
@@ -14,6 +14,8 @@
   <LoadingBar />
   {#if screenWidth > 1000}
     <Navbar />
+  {:else}
+    <NavbarResponsive />
   {/if}
   <Layout {screenWidth}>
     <slot />
@@ -31,7 +33,7 @@ import "@fontsource/inter/500.css";
 import "@fontsource/inter/600.css";
 import "@fontsource/inter/700.css";
 import "@fontsource/inter/800.css";
+import NavbarResponsive from "$lib/components/NavbarResponsive.svelte";
 
 let screenWidth;
-
 </script>

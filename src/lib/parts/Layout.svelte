@@ -15,11 +15,17 @@ div::-webkit-scrollbar-thumb {
 </style>
 
 <div
-  class={`h-screen ${screenWidth < 1000 ? 'w-12/12' : 'w-10/12'} overflow-y-scroll p-5`}
+  class={`h-screen ${
+    screenWidth < 1000 ? "w-12/12" : "w-10/12"
+  } overflow-y-scroll p-5`}
   on:scroll={handleScroll}
   bind:this={container}
 >
-  <div class={`${screenWidth < 1000 ? 'w-full' : 'w-[850px] mx-auto'} pt-10`}>
+  <div
+    class={`${
+      screenWidth < 1000 ? "w-full" : "w-[850px] mx-auto"
+    } pt-14 md:pt-10`}
+  >
     <slot />
   </div>
 </div>
@@ -32,7 +38,6 @@ div::-webkit-scrollbar-thumb {
 import ScrollUpButton from "$lib/components/ScrollUpButton.svelte";
 
 export let screenWidth;
-$: console.log(screenWidth)
 let y, container;
 
 function handleScroll(e) {
