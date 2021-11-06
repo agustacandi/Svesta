@@ -1,7 +1,7 @@
 <style>
 .nav-active {
   background-color: #5e5aff;
-  transition: all 0.5s;
+  transition: all 0.3s;
   color: white;
 }
 
