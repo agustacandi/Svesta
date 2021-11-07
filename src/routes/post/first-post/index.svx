@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Yahaloooo"
+title: "Post pertama"
 ---
 
 # ini post pertama

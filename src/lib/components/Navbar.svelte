@@ -31,11 +31,11 @@
           <p>Home</p></a
         >
         <a
-          href="/blog"
-          class:nav-active={$page.path === "/blog"}
+          href="/post"
+          class:nav-active={$page.path === "/post"}
           class="p-3 rounded hover:bg-gray-100 flex items-center space-x-5 font-semibold"
           ><Article />
-          <p>Blogs</p></a
+          <p>Posts</p></a
         >
         <a
           href="/project"

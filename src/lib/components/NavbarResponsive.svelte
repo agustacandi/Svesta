@@ -10,7 +10,9 @@
 }
 </style>
 
-<nav class="fixed top-0 w-full backdrop-filter backdrop-blur border-b border-gray-100">
+<nav
+  class="fixed bottom-0 w-full backdrop-filter backdrop-blur border-t border-gray-100"
+>
   <div class="flex justify-around p-2">
     <a
       href="/"
@@ -19,8 +21,8 @@
       ><Home />
     </a>
     <a
-      href="/blog"
-      class:nav-active={$page.path === "/blog"}
+      href="/post"
+      class:nav-active={$page.path === "/post"}
       class="p-3 rounded hover:bg-gray-100 flex items-center space-x-5 font-semibold"
       ><Article />
     </a>

@@ -24,7 +24,7 @@ div::-webkit-scrollbar-thumb {
   <div
     class={`${
       screenWidth < 1000 ? "w-full" : "w-[850px] mx-auto"
-    } pt-14 md:pt-10`}
+    } pb-14 md:pt-10`}
   >
     <slot />
   </div>
